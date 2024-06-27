@@ -1,0 +1,31 @@
+.returnandrefund{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.returnandrefundheader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.returnandrefundheader>h6{
+    font-size: 22px;
+    font-weight: 500;
+}
+.returnandrefund_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;flex-direction: column;
+    width: 95%;
+}
+.returnandrefund_details>p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    word-break: break-word;
+}

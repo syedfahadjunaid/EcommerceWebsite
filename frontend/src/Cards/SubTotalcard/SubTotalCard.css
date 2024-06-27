@@ -1,0 +1,75 @@
+.subtotalcard {
+  width: 350px;
+  height: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+}
+.subtotalcard_heading {
+  width: 95%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.subtotalcard_heading > span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.subtotalcard_heading > span > form > input {
+  width: 80%;
+  border: 1px solid lightgray;
+  outline: none;
+  padding-left: 5px;
+  height: 40px;
+}
+.subtotalcard_heading > span > form {
+  width: 100%;
+}
+.subtotalcard_heading > span > form > button {
+  height: 40px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 20%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.subtotalcard_details {
+  width: 95%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.subtotalcard_details > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.subtotalcard_details > span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.subtotalcard_details > span > strong {
+  color: #2874f0;
+}
+@media only screen and (max-width: 600px) {
+  .subtotalcard {
+    width: 100%;
+  }
+}

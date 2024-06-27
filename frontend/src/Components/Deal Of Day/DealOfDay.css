@@ -1,0 +1,23 @@
+.dealofday{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.dealofday_top{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.dealofday_top>h6{
+    font-size: 22px;
+    font-weight: 500;
+}
+.dealofday_cards{
+    width: 90%;
+}

@@ -1,0 +1,51 @@
+.privicypolicyadmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.privicypolicyadmin_heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-size: 20px;
+    font-weight: 500; */
+}
+.privicypolicyadmin_update{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+}
+.privicypolicyadmin_update>form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.privicypolicyadmin_update>form>p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.privicypolicyadmin_update>form>textarea{
+    width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.privicypolicyadmin_update>form>button{
+    width: 150px;
+    height: 35px;
+    background-color: var(--primary-color);
+    color: #fff;
+    outline: transparent;
+    border: transparent;
+}

@@ -1,0 +1,108 @@
+.dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.dashboard_heading{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.dashboard_cards{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.dashboard_cards_card{
+    flex: 0.3;
+    /* width: 350px; */
+    width: 100%;
+    border: 1px solid  black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    background: burlywood;
+}
+.dashboard_cards_card>span{
+    margin-left: 1.6rem;
+}
+.dashboard_cards_card_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #CFE2FF;
+}
+.dashboard_charts{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+}
+.dashboard_charts_sale>p,.dashboard_charts_product>p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+}
+.dashboard_charts_sale,.dashboard_charts_product{
+    flex: 0.45;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+
+    height: 550px;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.dashboard_latest_order{
+    margin-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.dashboard_latest_order_heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.dashboard_latest_order_table{
+    width: 100%;
+    margin-top: 20px;
+}

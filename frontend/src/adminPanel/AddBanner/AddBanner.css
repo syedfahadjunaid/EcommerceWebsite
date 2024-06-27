@@ -1,0 +1,46 @@
+.addbanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.addbanner_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.addbanner_heading>button{
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-right: 20px;
+    outline: transparent;
+    border: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+.addbanner_top{
+    margin-top: 10px;
+    width: 100%;
+}
+.modal_class_button{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.modal_class_button>button{
+    padding: 8px;
+    background-color: var(--primary-color);
+    color: #fff;
+    outline: transparent;
+    border: transparent;
+    font-size: 16px;
+
+}

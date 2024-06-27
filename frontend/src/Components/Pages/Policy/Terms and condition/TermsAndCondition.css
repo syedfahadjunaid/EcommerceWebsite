@@ -1,0 +1,30 @@
+.termsandcondition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.termsandcondition_header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.termsandcondition_header>h6{
+font-size: 22px;
+font-weight: 500;
+}
+.termsandcondition_details{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.termsandcondition_details>p{
+    text-align: justify;
+    word-break:break-word;
+}

@@ -1,0 +1,32 @@
+.icons_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons_container > input {
+  width: 21%;
+  padding-left: 5px;
+  height: 40px;
+  border: 1px solid lightgrey;
+  outline-color: lightgrey;
+  border-radius: 4px;
+}
+.removebutton {
+  border: transparent;
+  outline: transparent;
+  background-color: red;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.savebutton {
+  border: transparent;
+  outline: transparent;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

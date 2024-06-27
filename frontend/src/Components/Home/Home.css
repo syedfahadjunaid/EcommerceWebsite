@@ -1,0 +1,23 @@
+.modal_pop_up {
+  padding: 0 !important;
+}
+.offerpopup {
+  padding: 0 !important;
+}
+.offerpopup > img {
+  width: 100%;
+  height: 600px;
+}
+.banner_skeleten{
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .offerpopup > img {
+    height: 350px;
+    width: 75%;
+  }
+  .modal_pop_up{
+    width: 100%;
+  }
+}

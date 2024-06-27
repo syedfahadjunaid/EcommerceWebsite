@@ -1,0 +1,33 @@
+.discountpricepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.discountpricepage_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.discountpricepage_heading>h6{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.discountpricepage_heading>p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.discountpricepage_product{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}

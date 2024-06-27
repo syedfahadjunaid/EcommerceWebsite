@@ -1,0 +1,158 @@
+.product {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.product_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.product_heading > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 8px;
+  border: transparent;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.product_cards_admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.product_search_bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* border: 1px solid lightgray; */
+  padding: 15px 0;
+  border-bottom: 1px solid lightgray;
+}
+.product_search_bar > span > input {
+  height: 35px;
+  width: 100%;
+  /* margin-left: 30px; */
+}
+.product_search_bar > div > span {
+  margin-right: 20px;
+}
+.product_search_bar > div > span > select {
+  height: 30px;
+  padding: 5px 8px;
+}
+.product_product {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  width: 100%;
+}
+.productViewModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.productViewModal > form {
+  width: 100%;
+}
+.productViewModal > form > span {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.productViewModal > form > span > span {
+  width: 100%;
+  border: 1px solid lightgrey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.productViewModal > form > span > span > input {
+  width: 100%;
+  height: 35px;
+  border: transparent;
+  outline: transparent;
+  padding-left: 10px;
+}
+.productUploadedImage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  border: transparent !important;
+}
+.productUploadedImage > img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border: 1px solid lightgrey;
+  margin-right: 5px;
+}
+.updateProduct {
+  border: transparent !important;
+  width: 100%;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: 20px;
+}
+.updateProduct > button {
+  background-color: var(--primary-color);
+  color: #fff;
+  outline: transparent;
+  border: transparent;
+  padding: 10px;
+  font-size: 16px;
+}
+.productDeleteModal {
+  width: 300px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+.productDeleteModal {
+  font-size: 18px;
+  font-weight: 600;
+}
+.productDeleteModal > span {
+  margin-top: 10px;
+}
+.productDeleteModal > span > button {
+  outline: transparent;
+  border: transparent;
+  padding: 10px;
+  font-size: 16px;
+}
+.productDeleteModal > span > button:first-child {
+  color: #fff;
+  background-color: var(--primary-color);
+  margin-right: 10px;
+}
+.productDeleteModal > span > button:last-child {
+  color: #fff;
+  background-color: rgb(255, 141, 96);
+  margin-right: 10px;
+}

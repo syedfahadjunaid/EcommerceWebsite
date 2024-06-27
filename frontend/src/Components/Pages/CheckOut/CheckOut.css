@@ -1,0 +1,111 @@
+.checkout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.checkout_headline{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.checkout_headline>h6{
+    font-size: 35px;
+}
+.checkout_top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+}
+.checkout_left{
+    flex: 0.6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.checkout_right{
+    flex: 0.3;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+}
+.checkout_left_form_div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkout_left_form_div_input{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    outline: 1px solid lightgrey;
+}
+.checkout_left_form_div1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.checkout_left_form_div1>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.checkout_left_form_div1>span>input{
+    margin-right: 10px;
+}
+.checkout_left_form_div1>button{
+border: transparent;
+outline: transparent;
+padding: 6px 12px;
+background-color:#2874F0 ;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+}
+@media only screen and (max-width:600px){
+    .checkout_top{
+        flex-direction: column;
+    }
+    .checkout_left{
+        flex: 1;
+    }
+    .checkout_right{
+        flex: 1;
+    }
+    .checkout_left_form_div_input{
+        width: 100%;
+    }
+    .checkout_left>form{
+        width: 100%;
+    }
+    .checkout_top{
+        width: 95%;
+    }
+}

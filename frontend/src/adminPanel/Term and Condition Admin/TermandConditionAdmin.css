@@ -1,0 +1,49 @@
+.termandconditionadmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.termandconditionadmin_heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.termandconditionadmin_update{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.termandconditionadmin_update>form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.termandconditionadmin_update>form>p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.termandconditionadmin_update>form>textarea{
+    width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.termandconditionadmin_update>form>button{
+    width: 150px;
+    height: 35px;
+    border: transparent;
+    outline: transparent;
+    background-color: var(--primary-color);
+    color: #fff;
+}

@@ -1,0 +1,29 @@
+.policy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.policy_header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.policy_header>h6{
+    font-size: 22px;
+    font-weight: 500;
+}
+.policy_details{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.policy_details>p{
+    text-align: justify;
+    word-break:break-word;
+}

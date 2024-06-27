@@ -1,0 +1,50 @@
+.adminnavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.adminnavbar>span{
+    width: 300px;
+    border: 1px solid lightgrey;
+}
+.adminnavbar>span>input{
+    width: 100%;
+    border: transparent;
+    outline: transparent;
+    height: 35px;
+    padding-left: 10px;
+}
+.adminnavbar>div>img{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.adminnavbar_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.adminnavbar_login{
+    display: none;
+}
+.adminnavbar_div:hover>.adminnavbar_login{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 100px;
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+.adminnavbar_login>p:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}

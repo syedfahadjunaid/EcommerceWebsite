@@ -1,0 +1,57 @@
+.hotdealcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 290px;
+    height: 350px;
+    border: 1px solid rgba(99, 99, 99, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.hotdealcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+.hotdealcard_img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.hotdealcard_img>img{
+    height: 200px;
+    object-fit: contain;
+}
+.hotdealcard_details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hotdealcard_details>h6{
+    font-size: 22px;
+    font-weight: 600;
+    color: var( --title-color);
+    margin-bottom: 10px;
+}
+.hotdealcard_details>p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(  --titletext-color);
+}
+.hotdealcard_details>strong{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media only screen and (max-width:600px){
+    .hotdealcard{
+        min-width: 290px;
+    min-height: 350px;
+    }
+}

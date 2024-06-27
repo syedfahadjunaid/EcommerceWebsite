@@ -1,0 +1,28 @@
+.categoriespage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* justify-content: s; */
+    width: 100%;
+}
+.categoriespage>span:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.categoriespage>span{
+    width: 170px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.categoriespage>span>img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,31 @@
+.admin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  overflow-y: scroll;
+  /* position: relative; */
+}
+.admin_left {
+  flex: 0.2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* border: 1px solid black; */
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: fit-content;
+  padding-bottom: 20px;
+  height: 100vh;
+margin-bottom: 10px;
+  overflow-y: scroll;
+}
+.admin_left::-webkit-scrollbar {
+  display: none;
+}
+.admin_right {
+  flex: 0.78;
+
+}

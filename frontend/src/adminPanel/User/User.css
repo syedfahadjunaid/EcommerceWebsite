@@ -1,0 +1,95 @@
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.user_heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.user_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.user_top_search_heading{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.user_top_search_heading>input{
+    width: 300px;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+.user_top_search_heading>div>span{
+margin-right: 20px;
+height: 40px;
+}
+.user_top_search_heading>div>span>select{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+.user_top_user{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
+.user_Pagination{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+.adminuserdetails{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.adminuserdetails_left{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.adminuserdetails_right{
+    flex: 0.65;
+}
+.userDetails_span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid lightgray;
+}
+.userDetails_span>p:first-child{
+    color: #111;
+    font-size: 18px;
+    font-weight: bold;
+}
+.userDetails_span>p:last-child{
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+}

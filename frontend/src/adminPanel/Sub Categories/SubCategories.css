@@ -1,0 +1,126 @@
+.subcategories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.subcategories_heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+.subcategories_top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.subcategories_top_search{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.subcategories_top_search>span{
+    width: 300px;
+    border: 1px solid lightgrey;
+}
+.subcategories_top_search>span>input{
+width: 100%;
+padding-left: 10px;
+border: transparent;
+outline: transparent;
+height: 40px;
+}
+.subcategories_top_search>button{
+    margin-right: 20px;
+    padding:15px 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: transparent;
+    outline: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+.subcategories_top_table{
+    width: 100%;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  /* #customers tr:hover {background-color: #ddd;} */
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:  var(--primary-color);
+    color: white;
+  }
+  .subcategories_modal{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .subcategories_modal>form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+  }
+  .subcategories_modal>form>select{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  .subcategories_modal>form>span{
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+  }
+  .subcategories_modal>form>span>input{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+
+    outline: transparent;
+    border: transparent;
+  }
+  .subcategories_modal_span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: transparent !important;
+  }
+  .subcategories_modal_span>button{
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: transparent;
+    outline: transparent;
+  }

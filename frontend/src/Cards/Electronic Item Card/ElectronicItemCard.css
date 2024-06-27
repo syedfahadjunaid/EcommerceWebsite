@@ -1,0 +1,113 @@
+.electronicItemcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 250px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+    
+}
+.electronicItemcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.electronicItemcard_first{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.electronicItemcard_first_favroits{
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.electronicItemcard_first>img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+.electronicItemcard_second{
+    flex: 0.6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.electronicItemcard_third{
+    flex: 0.3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.electronicItemcard_second>h6{
+    font-size: 18px ;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.electronicItemcard_second>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    /* width: 80%; */
+}
+.electronicItemcard_second>div>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    background-color: #4F6FC5;
+    color: #fff;
+    padding: 1.5px ;
+    border-radius: 5px;
+}
+.electronicItemcard_second>div>p{
+    color: #545454;
+}
+.electronicItemcard_second>div>span>p{
+    margin-right: 1px;
+}
+.electronicItemcard_second_icon{
+    font-size: 15px !important;
+    margin-right: 2px;
+}
+.electronicItemcard_second>ul>li{
+    margin-bottom: 5px;
+    color:#545454;
+}
+.electronicItemcard_third>strong{
+color: #4F6FC5;
+margin-bottom: 5px;
+font-size: 25px;
+font-weight: 500;
+}
+.electronicItemcard_third>span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.electronicItemcard_third>span>s{
+    color: #545454;
+    margin-right: 10px;
+}
+.electronicItemcard_third>span>p{
+color: #2874F0;
+}
+.electronicItemcard_third>p{
+    color: #545454;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width:600px){
+    .electronicItemcard{
+        width: 98%;
+        height: 300px;
+    }
+}

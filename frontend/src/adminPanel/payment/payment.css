@@ -1,0 +1,136 @@
+.input_full_width{
+  width: 100%;
+  height: 40px;
+  padding-left: 5px;
+  outline: none;
+}
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.payment_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.payment_table {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-direction: column;
+}
+.payment_table > p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#customers tr {
+  height: 50px;
+}
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* #customers tr:hover {background-color: #ddd;} */
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2874f0;
+  color: white;
+}
+#customers tr td {
+  width: 200px;
+}
+.payment_table_span {
+  border: 1px solid var(--primary-color);
+  padding: 8px;
+  border-radius: 10px;
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+.payment_table_span:hover {
+  background-color: #2874f0;
+  color: #fff;
+}
+.payment_table_span_deactive {
+  border: 1px solid #ff8d60;
+  padding: 8px;
+  border-radius: 10px;
+  color: #ff8d60;
+  font-weight: 600;
+  cursor: pointer;
+}
+.payment_table_span_deactive:hover {
+  background-color: #ff8d60;
+  color: #fff;
+}
+.subcategories_modal > select {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  border-radius: 5px;
+  outline: transparent;
+}
+.subcategories_modal_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.subcategories_modal_div_left,
+.subcategories_modal_div_right {
+  flex: 0.45;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.subcategories_modal_div_left > span,
+.subcategories_modal_div_right > span {
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+.subcategories_modal_div_left > span > input,
+.subcategories_modal_div_right > span > input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  outline: transparent;
+}
+.subcategories_modal_span > button:first-child {
+  margin-right: 20px;
+  background-color: #ff8d60;
+}
+.payment_view_button {
+  cursor: pointer;
+  background-color: #ff8d60;
+  color: #fff;
+  padding: 8px;
+  width: 53px;
+  border-radius: 8px;
+}

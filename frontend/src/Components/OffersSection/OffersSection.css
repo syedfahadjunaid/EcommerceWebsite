@@ -1,0 +1,76 @@
+.offersection{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient(101.69deg, rgba(40, 116, 240, 0.3) -4.5%, rgba(6, 28, 82, 0.3) 97.8%);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.offersection_one,.offersection_two,.offersection_three{
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 8px;
+}
+.offersection_one>p,.offersection_two>p,.offersection_three>p{
+    font-size: 18px ;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.offersection_one>div,.offersection_two>div,.offersection_three>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.offersection_one>div>span,.offersection_two>div>span,.offersection_three>div>span{
+    background-color: #AFD4FF;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* flex-direction: column; */
+}
+.offersection_two>div>span{
+    background-color: #FFBAC2;
+}
+.offersection_three>div>span{
+    background-color: #C7CCFF;
+}
+.offersection_one>div>span>img,.offersection_two>div>span>img,.offersection_three>div>span>img{
+    height: 150px;
+    width: 150px;
+
+}
+@media only screen and (max-width:600px){
+    .offersection{
+        flex-direction: column;
+        height: fit-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .offersection_one,.offersection_two,.offersection_three{
+        flex: 1;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .offersection_one>div>span>img,.offersection_two>div>span>img,.offersection_three>div>span>img{
+        height: 150px;
+        width: 150px;
+    
+    }
+    .offersection_one>div>span,.offersection_two>div>span,.offersection_three>div>span{
+        width: 170px;
+        height: 170px;
+    }
+}

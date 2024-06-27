@@ -1,0 +1,93 @@
+.returnCondition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.returnCondition_header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.returnCondition_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.returnCondition_top_search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.returnCondition_top_search>span{
+    width: 300px;
+    border: 1px solid lightgrey;
+}
+.returnCondition_top_search>span>input{
+width: 100%;
+height: 40px;
+border: transparent;
+outline: transparent;
+padding-left: 10px;
+}
+.returnCondition_top_search>button{
+    padding: 10px 15px;
+    border: transparent;
+    outline: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.returnCondition_top_table{
+    width: 100%;
+    margin-top: 20px;
+}
+.modal_box_span{
+    width: 100%;
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.modal_box_span>input{
+    width: 100%;
+    border: transparent;
+    outline: transparent;
+    padding-left: 10px;
+    height: 40px;
+}
+.modal_box_span1{
+    width: 100%;
+    /* border: 1px solid lightgrey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.modal_box_span1>button{
+width: 100px;
+padding: 8px;
+color: #fff;
+background-color: var(--primary-color);
+border: transparent;
+outline: transparent;
+cursor: pointer;
+}
+.returnCondition_top_table_delete{
+    color: lightgrey;
+}
+.returnCondition_top_table_delete:hover{
+color: tomato;
+cursor: pointer;
+}

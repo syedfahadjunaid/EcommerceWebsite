@@ -1,0 +1,33 @@
+.hotoffer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hotoffer_top{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.hotoffer_top>h6{
+    font-size: 22px;
+    font-weight: 500;
+}
+.hotoffer_cards{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width:600px){
+    .hotoffer_cards{
+        overflow-x: scroll;
+        width: 95%;
+        justify-content: flex-start;
+    }
+}

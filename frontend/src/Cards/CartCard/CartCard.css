@@ -1,0 +1,118 @@
+.cartcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+.cartcard_left{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+    width: 100%;
+}
+.cartcard_left>img{
+    height: 120px;
+}
+.cartcard_right{
+    flex: 0.65;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+
+}
+.cartcard_right_heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.cartcard_right_seller{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 14px;
+}
+.cartcard_right_price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.cartcard_right_savelater{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cartcard_right_savelater>p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.cartcard_right_savelater>p:hover{
+    color: #2874F0;
+    cursor: pointer;
+}
+.cartcard_right_price>s{
+    margin-right: 8px;
+}
+.cartcard_right_price>strong{
+    margin-right: 8px;
+    color: #2874F0;
+}
+.cartcard_right_price>p{
+    margin-right: 8px;
+    color: #2874F0;
+}
+.cartcard_left_quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    cursor: pointer;
+    margin-top: 5px;
+  
+}
+.cartcard_left_quantity>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}
+.cartcard_left_quantity_number{
+    flex: 0.4;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.cartcard_left_quantity_icon{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+@media only screen and (max-width:600px){
+    .cartcard{
+        width: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+.featurecard{
+    width: 350px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: #AFD4FF;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.featurecard_img{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    
+}
+.featurecard_img>img{
+    height: 195px;
+    width: 100%;
+    object-fit: contain;
+}
+.featurecard_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+}
+.featurecard_price>p{
+    font-weight: 500;
+}
+.featurecard_price_icon{
+    font-size: 15px !important;
+
+}
+@media only screen and (max-width:600px){
+    .featurecard{
+        min-width: 350px;
+        min-height: 230px;
+    }
+}

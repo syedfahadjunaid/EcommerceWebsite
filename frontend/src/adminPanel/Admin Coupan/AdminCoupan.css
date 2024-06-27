@@ -1,0 +1,64 @@
+.admincoupanmodal{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.admincoupanmodal>p{
+    margin-bottom: 5px;
+}
+.admincoupanmodal>span{
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
+.admincoupanmodal>span>input,.admincoupanmodal>span>select{
+    width: 100%;
+    border: transparent;
+    outline: transparent;
+    height: 35px !important;
+    padding-left: 10px;
+}
+.admincoupanmodal_span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent !important;
+    margin-top: 10px;
+}
+.admincoupanmodal_span>button{
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    border: transparent;
+    outline: transparent;
+    cursor: pointer;
+}
+.admincoupanmodal_span_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent !important;
+    margin-top: 10px;
+}
+.admincoupanmodal_span_button>button:first-child{
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border: transparent;
+    outline: transparent;
+    cursor: pointer;
+
+}
+.admincoupanmodal_span_button>button:last-child{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    border: transparent;
+    outline: transparent;
+    cursor: pointer;
+}

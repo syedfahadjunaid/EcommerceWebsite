@@ -1,0 +1,106 @@
+.bigcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+
+}
+.bigcard_left{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.bigcard_left>img{
+    height: 300px;
+    object-fit: contain;
+}
+.bigcard_right{
+    flex: 0.45;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    padding: 15px;
+}
+.bigcard_right_review{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bigcard_right_title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bigcard_right_title>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.bigcard_right_description{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bigcard_right_price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bigcard_right_countdown{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.bigcard_right_countdown_heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.bigcard_right_countdown_heading>p{
+font-size: 20px;
+font-weight: 500;
+}
+.bigcard_right_countdown_timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}
+.bigcard_right_countdown_timer>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+    outline: 3px solid var(--primary-color);
+}
+.bigcard_right_countdown_timer>span>strong{
+    color: rgb(40, 116, 240);
+    font-size: 22px;
+}
+.bigcard_right_countdown_timer>span>p{
+    margin-top: 4px;
+}
+@media only screen and (max-width:600px){
+    .bigcard{
+        flex-direction: column;
+    }
+    .bigcard_right_countdown_timer>span{
+        width: 75px;
+        height: 75px;
+    }
+}
